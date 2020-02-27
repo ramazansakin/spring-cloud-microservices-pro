@@ -1,9 +1,9 @@
 package com.sakinramazan.microservices.itemdashboardservice.dao;
 
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
+import com.sakinramazan.microservices.itemdashboardservice.entity.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-interface ItemRepository extends JpaRepository<AbstractReadWriteAccess.Item, Long> {
+public interface ItemRepository extends JpaRepository<Item, Long> {
 }
