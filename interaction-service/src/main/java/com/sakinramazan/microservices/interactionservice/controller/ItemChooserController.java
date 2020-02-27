@@ -1,7 +1,7 @@
 package com.sakinramazan.microservices.interactionservice.controller;
 
 
-import com.sakinramazan.microservices.interactionservice.ItemClient;
+import com.sakinramazan.microservices.interactionservice.client.ItemClient;
 import com.sakinramazan.microservices.interactionservice.dto.Item;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
